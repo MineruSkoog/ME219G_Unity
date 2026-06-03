@@ -29028,6 +29028,131 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: pickupKey.Path
+      value: event:/Music/Stingers/PickupKey
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: pickupKey.Guid.Data1
+      value: -2059933465
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: pickupKey.Guid.Data2
+      value: 1225793688
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: pickupKey.Guid.Data3
+      value: 534036627
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: pickupKey.Guid.Data4
+      value: 363287452
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerGameOver.Path
+      value: event:/Music/Stingers/GameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerKeyPickup.Path
+      value: event:/Music/Stingers/PickupKey
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerWeaponPickup.Path
+      value: event:/Music/Stingers/PickupKey
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerGameOver.Guid.Data1
+      value: -1833730345
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerGameOver.Guid.Data2
+      value: 1204313934
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerGameOver.Guid.Data3
+      value: -334081348
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerGameOver.Guid.Data4
+      value: 963161627
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerKeyPickup.Guid.Data1
+      value: -2059933465
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerKeyPickup.Guid.Data2
+      value: 1225793688
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerKeyPickup.Guid.Data3
+      value: 534036627
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerKeyPickup.Guid.Data4
+      value: 363287452
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerWeaponPickup.Guid.Data1
+      value: -2059933465
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerWeaponPickup.Guid.Data2
+      value: 1225793688
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerWeaponPickup.Guid.Data3
+      value: 534036627
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerWeaponPickup.Guid.Data4
+      value: 363287452
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Music/Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1762516053
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1159455182
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 485582479
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 1706869591
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
