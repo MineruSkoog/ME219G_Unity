@@ -313,6 +313,32 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-7305354967652843667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main/Cave
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Cave
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1935760605
+    data2: 1694435657
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - No
+  - Yes
+  Exists: 1
 --- !u!114 &-7040247389649434381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,6 +365,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: -1656556784980386191}
+  - {fileID: 5003457466661217038}
   MinDistance: 1
   MaxDistance: 20
   Length: 10666
@@ -418,6 +445,30 @@ MonoBehaviour:
   ID:
     data1: 84745176
     data2: 1140914552
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5691714084068239104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnemyDistance
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: EnemyDistance
+  StudioPath: parameter:/SFX Parameters/Enemies/EnemyDistance
+  Min: 0
+  Max: 25
+  Default: 0
+  ID:
+    data1: 558839178
+    data2: 2277035199
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -634,6 +685,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 90
   Length: 1224
+--- !u!114 &-3236609600957855890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main/EnemyDistance
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: EnemyDistance
+  StudioPath: 
+  Min: 0
+  Max: 25
+  Default: 0
+  ID:
+    data1: 558839178
+    data2: 2277035199
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3092391883539158283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -662,6 +737,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3500
+--- !u!114 &-2705317509543494494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main/KeyLocation
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: KeyLocation
+  StudioPath: 
+  Min: 0
+  Max: 25
+  Default: 0
+  ID:
+    data1: 1326384122
+    data2: 3086536664
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2569380085330883943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/KeyLocation
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: KeyLocation
+  StudioPath: parameter:/KeyLocation
+  Min: 0
+  Max: 25
+  Default: 0
+  ID:
+    data1: 1326384122
+    data2: 3086536664
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-2456024643014434128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1130,11 +1253,13 @@ MonoBehaviour:
   EditorParameters:
   - {fileID: -5037740041512683551}
   - {fileID: 4755817424031873596}
+  - {fileID: -5691714084068239104}
+  - {fileID: -2569380085330883943}
   MasterBanks:
   - {fileID: 6300212827241841066}
   StringsBanks:
   - {fileID: 4340017087637815257}
-  cacheTime: 639161951094781515
+  cacheTime: 639161996280799101
   cacheVersion: 131846
 --- !u!114 &86232783008399956
 MonoBehaviour:
@@ -1349,7 +1474,8 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 5993967345951924770}
   MinDistance: 1
   MaxDistance: 20
   Length: 885
@@ -1381,6 +1507,9 @@ MonoBehaviour:
   - {fileID: 5818281413512158503}
   - {fileID: -7417264908014157338}
   - {fileID: -5849339912013318009}
+  - {fileID: -7305354967652843667}
+  - {fileID: -3236609600957855890}
+  - {fileID: -2705317509543494494}
   MinDistance: 1
   MaxDistance: 20
   Length: 130666
@@ -1481,10 +1610,10 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.strings.bank
   Name: Master Bank.strings
   StudioPath: bank:/Master Bank.strings
-  lastModified: 639161951090626252
+  lastModified: 639161996277610568
   FileSizes:
   - Name: 
-    Value: 4426
+    Value: 4450
   Exists: 1
 --- !u!114 &4469265588652571827
 MonoBehaviour:
@@ -1595,6 +1724,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &5003457466661217038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Radar/KeyLocation
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: KeyLocation
+  StudioPath: 
+  Min: 0
+  Max: 25
+  Default: 0
+  ID:
+    data1: 1326384122
+    data2: 3086536664
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5011738946932536786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1634,7 +1787,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Music.bank
   Name: Desktop/Music
   StudioPath: bank:/Music/Music
-  lastModified: 639161951094781515
+  lastModified: 639161996280799101
   FileSizes: []
   Exists: 1
 --- !u!114 &5346450917121100190
@@ -1739,6 +1892,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &5993967345951924770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Enemy_Chomper_Attack_Melee/EnemyDistance
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: EnemyDistance
+  StudioPath: 
+  Min: 0
+  Max: 25
+  Default: 0
+  ID:
+    data1: 558839178
+    data2: 2277035199
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &6187713368279223923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1781,7 +1958,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.bank
   Name: Desktop/Master Bank
   StudioPath: bank:/Master Bank
-  lastModified: 639161951090448299
+  lastModified: 639161996277488897
   FileSizes: []
   Exists: 1
 --- !u!114 &6396540705424834315
