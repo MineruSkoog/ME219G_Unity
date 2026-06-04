@@ -136,30 +136,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 15000
---- !u!114 &-8498653707466499885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Main/Volume intro
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
-  Name: Volume intro
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 84745176
-    data2: 1140914552
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &-8474913990670233706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,6 +398,30 @@ MonoBehaviour:
   MinDistance: 5
   MaxDistance: 80
   Length: 2642
+--- !u!114 &-5849339912013318009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main/DepthMenu
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: DepthMenu
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 84745176
+    data2: 1140914552
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-5157658093823885783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -634,30 +634,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 90
   Length: 1224
---- !u!114 &-3182263248959941520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Music_Intro/Volume intro
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
-  Name: Volume intro
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 84745176
-    data2: 1140914552
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &-3092391883539158283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1153,12 +1129,12 @@ MonoBehaviour:
   - {fileID: 3633640977821828807}
   EditorParameters:
   - {fileID: -5037740041512683551}
-  - {fileID: 273681129086406978}
+  - {fileID: 4755817424031873596}
   MasterBanks:
   - {fileID: 6300212827241841066}
   StringsBanks:
   - {fileID: 4340017087637815257}
-  cacheTime: 639161919364431129
+  cacheTime: 639161948012185476
   cacheVersion: 131846
 --- !u!114 &86232783008399956
 MonoBehaviour:
@@ -1188,7 +1164,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 10
   Length: 854
---- !u!114 &273681129086406978
+--- !u!114 &175436408634007211
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1198,12 +1174,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Volume intro
+  m_Name: parameter:/Music_Intro/DepthMenu
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
-  Name: Volume intro
-  StudioPath: parameter:/Music/Volume intro
+  Name: DepthMenu
+  StudioPath: 
   Min: 0
-  Max: 3
+  Max: 1
   Default: 0
   ID:
     data1: 84745176
@@ -1403,8 +1379,8 @@ MonoBehaviour:
   Parameters:
   - {fileID: 4469265588652571827}
   - {fileID: 5818281413512158503}
-  - {fileID: -8498653707466499885}
   - {fileID: -7417264908014157338}
+  - {fileID: -5849339912013318009}
   MinDistance: 1
   MaxDistance: 20
   Length: 130666
@@ -1505,10 +1481,10 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.strings.bank
   Name: Master Bank.strings
   StudioPath: bank:/Master Bank.strings
-  lastModified: 639161893714169595
+  lastModified: 639161944912327477
   FileSizes:
   - Name: 
-    Value: 4394
+    Value: 4392
   Exists: 1
 --- !u!114 &4469265588652571827
 MonoBehaviour:
@@ -1595,6 +1571,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &4755817424031873596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DepthMenu
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: DepthMenu
+  StudioPath: parameter:/Music/DepthMenu
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 84745176
+    data2: 1140914552
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5011738946932536786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1634,7 +1634,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Music.bank
   Name: Desktop/Music
   StudioPath: bank:/Music/Music
-  lastModified: 639161919364431129
+  lastModified: 639161948012185476
   FileSizes: []
   Exists: 1
 --- !u!114 &5346450917121100190
@@ -1781,7 +1781,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.bank
   Name: Desktop/Master Bank
   StudioPath: bank:/Master Bank
-  lastModified: 639161893714088208
+  lastModified: 639161944912187370
   FileSizes: []
   Exists: 1
 --- !u!114 &6396540705424834315
@@ -1892,7 +1892,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: 5011738946932536786}
-  - {fileID: -3182263248959941520}
+  - {fileID: 175436408634007211}
   MinDistance: 1
   MaxDistance: 20
   Length: 6666
