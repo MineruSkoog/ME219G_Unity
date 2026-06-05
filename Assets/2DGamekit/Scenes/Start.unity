@@ -29158,33 +29158,48 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
+      propertyPath: CollisionTag
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventPlayTrigger
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventStopTrigger
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
       propertyPath: Params.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventReference.Path
-      value: 
+      value: event:/Music/Solo(Indoor)
       objectReference: {fileID: 0}
     - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventReference.Guid.Data1
-      value: 0
+      value: -852358281
       objectReference: {fileID: 0}
     - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventReference.Guid.Data2
-      value: 0
+      value: 1163950986
       objectReference: {fileID: 0}
     - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventReference.Guid.Data3
-      value: 0
+      value: 1796566161
       objectReference: {fileID: 0}
     - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventReference.Guid.Data4
-      value: 0
+      value: 336951186
       objectReference: {fileID: 0}
     - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
@@ -29293,6 +29308,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
+      propertyPath: playerHurt.Path
+      value: event:/Music/Stingers/Playerhurt
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
       propertyPath: pickupKey.Guid.Data1
       value: -2059933465
       objectReference: {fileID: 0}
@@ -29315,6 +29335,26 @@ PrefabInstance:
         type: 3}
       propertyPath: stingerGameOver.Path
       value: event:/Music/Stingers/GameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: playerHurt.Guid.Data1
+      value: -1665504016
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: playerHurt.Guid.Data2
+      value: 1122986913
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: playerHurt.Guid.Data3
+      value: -8153172
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: playerHurt.Guid.Data4
+      value: 931771057
       objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
