@@ -29389,22 +29389,32 @@ PrefabInstance:
     - target: {fileID: 4860983653683116548, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventPlayTrigger
-      value: 13
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4860983653683116548, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventStopTrigger
-      value: 14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4860983653683116548, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: Params.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4860983653683116548, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventReference.Path
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860983653683116548, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860983653683116548, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4860983653683116548, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
@@ -29479,12 +29489,12 @@ PrefabInstance:
     - target: {fileID: 7484880938483047845, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventPlayTrigger
-      value: 11
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7484880938483047845, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventStopTrigger
-      value: 12
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7484880938483047845, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}

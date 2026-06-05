@@ -384,8 +384,8 @@ MonoBehaviour:
     Data3: 1673289104
     Data4: 63688563
   Banks:
-  - {fileID: 5173356665188043356}
   - {fileID: 6300212827241841066}
+  - {fileID: 5173356665188043356}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -789,6 +789,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3500
+--- !u!114 &-2933836596135032888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Enemy_Gunner_Death/FadeOut
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: FadeOut
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 481323214
+    data2: 3001030112
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-2781429695226001695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1367,7 +1391,7 @@ MonoBehaviour:
   - {fileID: 6300212827241841066}
   StringsBanks:
   - {fileID: 4340017087637815257}
-  cacheTime: 639162445026352790
+  cacheTime: 639162474763165157
   cacheVersion: 131846
 --- !u!114 &86232783008399956
 MonoBehaviour:
@@ -1769,7 +1793,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.strings.bank
   Name: Master Bank.strings
   StudioPath: bank:/Master Bank.strings
-  lastModified: 639162445026352790
+  lastModified: 639162474758227913
   FileSizes:
   - Name: 
     Value: 4572
@@ -1822,8 +1846,8 @@ MonoBehaviour:
     Data3: 534036627
     Data4: 363287452
   Banks:
-  - {fileID: 5173356665188043356}
   - {fileID: 6300212827241841066}
+  - {fileID: 5173356665188043356}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1946,7 +1970,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Music.bank
   Name: Desktop/Music
   StudioPath: bank:/Music/Music
-  lastModified: 639162441141975321
+  lastModified: 639162474763165157
   FileSizes: []
   Exists: 1
 --- !u!114 &5346450917121100190
@@ -2126,9 +2150,10 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 1322113557089488016}
+  - {fileID: -2933836596135032888}
   MinDistance: 1
   MaxDistance: 20
-  Length: 8198
+  Length: 22170
 --- !u!114 &6300212827241841066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2144,7 +2169,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.bank
   Name: Desktop/Master Bank
   StudioPath: bank:/Master Bank
-  lastModified: 639162445026181632
+  lastModified: 639162474758072449
   FileSizes: []
   Exists: 1
 --- !u!114 &6396540705424834315
