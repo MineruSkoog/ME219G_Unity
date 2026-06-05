@@ -160,6 +160,32 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-8251912043293111813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cave
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Cave
+  StudioPath: parameter:/Music/Cave
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1935760605
+    data2: 1694435657
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - No
+  - Yes
+  Exists: 1
 --- !u!114 &-8214818906037235206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,7 +360,7 @@ MonoBehaviour:
     data1: 1935760605
     data2: 1694435657
   Type: 2
-  IsGlobal: 0
+  IsGlobal: 1
   Labels:
   - No
   - Yes
@@ -358,8 +384,8 @@ MonoBehaviour:
     Data3: 1673289104
     Data4: 63688563
   Banks:
-  - {fileID: 6300212827241841066}
   - {fileID: 5173356665188043356}
+  - {fileID: 6300212827241841066}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -472,6 +498,32 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Labels: []
+  Exists: 1
+--- !u!114 &-5275673118806529280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BossDeath
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: BossDeath
+  StudioPath: parameter:/Music/BossDeath
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1356202083
+    data2: 125271892
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - No
+  - Yes
   Exists: 1
 --- !u!114 &-5157658093823885783
 MonoBehaviour:
@@ -737,6 +789,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3500
+--- !u!114 &-2781429695226001695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chorus/Horizontal
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Horizontal
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3283016031
+    data2: 2130642917
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-2705317509543494494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -752,7 +828,7 @@ MonoBehaviour:
   Name: KeyLocation
   StudioPath: 
   Min: 0
-  Max: 25
+  Max: 50
   Default: 0
   ID:
     data1: 1326384122
@@ -776,7 +852,7 @@ MonoBehaviour:
   Name: KeyLocation
   StudioPath: parameter:/KeyLocation
   Min: 0
-  Max: 25
+  Max: 50
   Default: 0
   ID:
     data1: 1326384122
@@ -952,6 +1028,32 @@ MonoBehaviour:
   - C#m
   - F#m
   Exists: 1
+--- !u!114 &-1298622126639505045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chorus/BossDeath
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: BossDeath
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1356202083
+    data2: 125271892
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - No
+  - Yes
+  Exists: 1
 --- !u!114 &-1298128315190392351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1029,9 +1131,11 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: 6396540705424834315}
+  - {fileID: -2781429695226001695}
+  - {fileID: -1298622126639505045}
   MinDistance: 1
   MaxDistance: 20
-  Length: 57354
+  Length: 73425
 --- !u!114 &-945096374883320665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1250,16 +1354,20 @@ MonoBehaviour:
   - {fileID: 2206836542376701594}
   - {fileID: 9143829962725937661}
   - {fileID: 3633640977821828807}
+  - {fileID: 6495157661816655989}
   EditorParameters:
   - {fileID: -5037740041512683551}
   - {fileID: 4755817424031873596}
   - {fileID: -5691714084068239104}
   - {fileID: -2569380085330883943}
+  - {fileID: -8251912043293111813}
+  - {fileID: 7154164819942781161}
+  - {fileID: -5275673118806529280}
   MasterBanks:
   - {fileID: 6300212827241841066}
   StringsBanks:
   - {fileID: 4340017087637815257}
-  cacheTime: 639161996280799101
+  cacheTime: 639162445026352790
   cacheVersion: 131846
 --- !u!114 &86232783008399956
 MonoBehaviour:
@@ -1312,6 +1420,32 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Labels: []
+  Exists: 1
+--- !u!114 &1322113557089488016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Enemy_Gunner_Death/BossDeath
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: BossDeath
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1356202083
+    data2: 125271892
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - No
+  - Yes
   Exists: 1
 --- !u!114 &1349481144783423750
 MonoBehaviour:
@@ -1510,8 +1644,9 @@ MonoBehaviour:
   - {fileID: -7305354967652843667}
   - {fileID: -3236609600957855890}
   - {fileID: -2705317509543494494}
+  - {fileID: 3761583250527685045}
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 1
   Length: 130666
 --- !u!114 &3571173610913689881
 MonoBehaviour:
@@ -1568,6 +1703,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &3761583250527685045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main/FadeOut
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: FadeOut
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 481323214
+    data2: 3001030112
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &4238649729166676723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1610,10 +1769,10 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.strings.bank
   Name: Master Bank.strings
   StudioPath: bank:/Master Bank.strings
-  lastModified: 639161996277610568
+  lastModified: 639162445026352790
   FileSizes:
   - Name: 
-    Value: 4450
+    Value: 4572
   Exists: 1
 --- !u!114 &4469265588652571827
 MonoBehaviour:
@@ -1663,8 +1822,8 @@ MonoBehaviour:
     Data3: 534036627
     Data4: 363287452
   Banks:
-  - {fileID: 6300212827241841066}
   - {fileID: 5173356665188043356}
+  - {fileID: 6300212827241841066}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1739,7 +1898,7 @@ MonoBehaviour:
   Name: KeyLocation
   StudioPath: 
   Min: 0
-  Max: 25
+  Max: 50
   Default: 0
   ID:
     data1: 1326384122
@@ -1769,7 +1928,7 @@ MonoBehaviour:
     data1: 3283016031
     data2: 2130642917
   Type: 1
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &5173356665188043356
@@ -1787,7 +1946,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Music.bank
   Name: Desktop/Music
   StudioPath: bank:/Music/Music
-  lastModified: 639161996280799101
+  lastModified: 639162441141975321
   FileSizes: []
   Exists: 1
 --- !u!114 &5346450917121100190
@@ -1868,6 +2027,32 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &5591512978647050769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cave/Cave
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Cave
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1935760605
+    data2: 1694435657
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - No
+  - Yes
+  Exists: 1
 --- !u!114 &5818281413512158503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1889,7 +2074,7 @@ MonoBehaviour:
     data1: 3283016031
     data2: 2130642917
   Type: 1
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &5993967345951924770
@@ -1939,7 +2124,8 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 1322113557089488016}
   MinDistance: 1
   MaxDistance: 20
   Length: 8198
@@ -1958,7 +2144,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.bank
   Name: Desktop/Master Bank
   StudioPath: bank:/Master Bank
-  lastModified: 639161996277488897
+  lastModified: 639162445026181632
   FileSizes: []
   Exists: 1
 --- !u!114 &6396540705424834315
@@ -1990,6 +2176,34 @@ MonoBehaviour:
   - C#m
   - F#m
   Exists: 1
+--- !u!114 &6495157661816655989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Cave
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/Cave
+  Guid:
+    Data1: 1363034581
+    Data2: 1169973160
+    Data3: -724891466
+    Data4: 1336427972
+  Banks:
+  - {fileID: 6300212827241841066}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5591512978647050769}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &6612902243991197067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2044,6 +2258,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 30
   Length: 2845
+--- !u!114 &7154164819942781161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Horizontal
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Horizontal
+  StudioPath: parameter:/Horizontal
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3283016031
+    data2: 2130642917
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &7523988677716114448
 MonoBehaviour:
   m_ObjectHideFlags: 0

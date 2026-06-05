@@ -320,7 +320,6 @@ MonoBehaviour:
   eventEmitters:
     musicMenu: {fileID: 110158806593295546}
     music: {fileID: 5158617837186310920}
-    music02: {fileID: 0}
     musicBoss: {fileID: 3257842776572977270}
     musicPause: {fileID: 4860983653683116548}
     ambiance: {fileID: 4318290237544591130}
@@ -397,11 +396,11 @@ MonoBehaviour:
     Path: event:/Objects & Interactables/Object_Door_Open
   pickupKey:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2059933465
+      Data2: 1225793688
+      Data3: 534036627
+      Data4: 363287452
+    Path: event:/Music/Stingers/PickupKey
   pressurePad:
     Guid:
       Data1: -2089369701
@@ -467,25 +466,25 @@ MonoBehaviour:
     Path: event:/Enemies/Enemy_Die
   stingerGameOver:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1833730345
+      Data2: 1204313934
+      Data3: -334081348
+      Data4: 963161627
+    Path: event:/Music/Stingers/GameOver
   stingerKeyPickup:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2059933465
+      Data2: 1225793688
+      Data3: 534036627
+      Data4: 363287452
+    Path: event:/Music/Stingers/PickupKey
   stingerWeaponPickup:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2059933465
+      Data2: 1225793688
+      Data3: 534036627
+      Data4: 363287452
+    Path: event:/Music/Stingers/PickupKey
   combatState: 0
   aggroEnemyParamName: 
   aggroEnemyCount: 0
