@@ -713,6 +713,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
+--- !u!114 &-4545183333288585835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Solo(Indoor)/Cave
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Cave
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1935760605
+    data2: 1694435657
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - No
+  - Yes
+  Exists: 1
 --- !u!114 &-3979565323648083371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1021,6 +1047,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2109184378313507770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Solo(Indoor)/DepthMenu
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: DepthMenu
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 84745176
+    data2: 1140914552
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-1906058710663085600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1443,11 +1493,12 @@ MonoBehaviour:
   - {fileID: -8251912043293111813}
   - {fileID: 7154164819942781161}
   - {fileID: -5275673118806529280}
+  - {fileID: 5867547158307646125}
   MasterBanks:
   - {fileID: 6300212827241841066}
   StringsBanks:
   - {fileID: 4340017087637815257}
-  cacheTime: 639162883062431864
+  cacheTime: 639178216098131984
   cacheVersion: 131846
 --- !u!114 &86232783008399956
 MonoBehaviour:
@@ -1522,16 +1573,20 @@ MonoBehaviour:
   Banks:
   - {fileID: 5173356665188043356}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: 5516412418345916019}
   - {fileID: 5008635165167582570}
   - {fileID: 8385806546293685543}
   - {fileID: 7907977116294222581}
+  - {fileID: -4545183333288585835}
+  - {fileID: 5085825966217381611}
+  - {fileID: -2109184378313507770}
+  - {fileID: 5570538315105365568}
   MinDistance: 1
   MaxDistance: 20
-  Length: 53478
+  Length: 58666
 --- !u!114 &1322113557089488016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1880,10 +1935,10 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.strings.bank
   Name: Master Bank.strings
   StudioPath: bank:/Master Bank.strings
-  lastModified: 639162828566319222
+  lastModified: 639178189006333857
   FileSizes:
   - Name: 
-    Value: 4672
+    Value: 4708
   Exists: 1
 --- !u!114 &4469265588652571827
 MonoBehaviour:
@@ -2044,6 +2099,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &5085825966217381611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Solo(Indoor)/KeyLocation
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: KeyLocation
+  StudioPath: 
+  Min: 0
+  Max: 50
+  Default: 0
+  ID:
+    data1: 1326384122
+    data2: 3086536664
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5173356665188043356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2059,7 +2138,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Music.bank
   Name: Desktop/Music
   StudioPath: bank:/Music/Music
-  lastModified: 639162883062431864
+  lastModified: 639178216098131984
   FileSizes: []
   Exists: 1
 --- !u!114 &5346450917121100190
@@ -2164,6 +2243,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &5570538315105365568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Solo(Indoor)/Boss
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Boss
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3271285166
+    data2: 1444844417
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &5591512978647050769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2213,6 +2316,32 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 1
   Labels: []
+  Exists: 1
+--- !u!114 &5867547158307646125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Zone5
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Zone5
+  StudioPath: parameter:/Zone5
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1468666084
+    data2: 4212501571
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - No
+  - Yes
   Exists: 1
 --- !u!114 &5993967345951924770
 MonoBehaviour:
@@ -2282,7 +2411,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.bank
   Name: Desktop/Master Bank
   StudioPath: bank:/Master Bank
-  lastModified: 639162828566193937
+  lastModified: 639178189006278598
   FileSizes: []
   Exists: 1
 --- !u!114 &6396540705424834315
