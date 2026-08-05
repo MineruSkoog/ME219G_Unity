@@ -392,6 +392,30 @@ MonoBehaviour:
   - No
   - Yes
   Exists: 1
+--- !u!114 &-7138695114242042376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Solo(Indoor)/StingerIsPlayed
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: StingerIsPlayed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 711526165
+    data2: 4133061467
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-7040247389649434381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -937,6 +961,30 @@ MonoBehaviour:
   ID:
     data1: 1326384122
     data2: 3086536664
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2603130184671042637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PickupKey/StingerIsPlayed
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: StingerIsPlayed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 711526165
+    data2: 4133061467
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1494,11 +1542,12 @@ MonoBehaviour:
   - {fileID: 7154164819942781161}
   - {fileID: -5275673118806529280}
   - {fileID: 5867547158307646125}
+  - {fileID: 110522460030910234}
   MasterBanks:
   - {fileID: 6300212827241841066}
   StringsBanks:
   - {fileID: 4340017087637815257}
-  cacheTime: 639178216098131984
+  cacheTime: 639215426735220245
   cacheVersion: 131846
 --- !u!114 &86232783008399956
 MonoBehaviour:
@@ -1528,6 +1577,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 10
   Length: 854
+--- !u!114 &110522460030910234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StingerIsPlayed
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: StingerIsPlayed
+  StudioPath: parameter:/Music/StingerIsPlayed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 711526165
+    data2: 4133061467
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &175436408634007211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1584,6 +1657,7 @@ MonoBehaviour:
   - {fileID: 5085825966217381611}
   - {fileID: -2109184378313507770}
   - {fileID: 5570538315105365568}
+  - {fileID: -7138695114242042376}
   MinDistance: 1
   MaxDistance: 20
   Length: 58666
@@ -1811,6 +1885,7 @@ MonoBehaviour:
   - {fileID: -3236609600957855890}
   - {fileID: -2705317509543494494}
   - {fileID: 3761583250527685045}
+  - {fileID: 5296033166104067597}
   MinDistance: 1
   MaxDistance: 1
   Length: 128000
@@ -1935,10 +2010,10 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.strings.bank
   Name: Master Bank.strings
   StudioPath: bank:/Master Bank.strings
-  lastModified: 639178189006333857
+  lastModified: 639215426733362151
   FileSizes:
   - Name: 
-    Value: 4708
+    Value: 4754
   Exists: 1
 --- !u!114 &4469265588652571827
 MonoBehaviour:
@@ -1995,9 +2070,10 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: -1906058710663085600}
+  - {fileID: -2603130184671042637}
   MinDistance: 1
   MaxDistance: 20
-  Length: 6000
+  Length: 5500
 --- !u!114 &4755817424031873596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2138,8 +2214,32 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Music.bank
   Name: Desktop/Music
   StudioPath: bank:/Music/Music
-  lastModified: 639178216098131984
+  lastModified: 639215426735220245
   FileSizes: []
+  Exists: 1
+--- !u!114 &5296033166104067597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main/StingerIsPlayed
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: StingerIsPlayed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 711526165
+    data2: 4133061467
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &5346450917121100190
 MonoBehaviour:
@@ -2411,7 +2511,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets1/Desktop/Master Bank.bank
   Name: Desktop/Master Bank
   StudioPath: bank:/Master Bank
-  lastModified: 639178189006278598
+  lastModified: 639215426733286020
   FileSizes: []
   Exists: 1
 --- !u!114 &6396540705424834315
